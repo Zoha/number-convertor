@@ -1,0 +1,20 @@
+@import "../assets/variables";
+
+.textarea {
+    padding: 20px;
+    border: 1px solid $grey;
+    border-radius: 30px;
+    resize: none;
+    width: 100%;
+    display:block;
+    color: $dark;
+    min-height: 250px;
+    &::placeholder {
+        color: $grey;
+    }
+    &:focus {
+        border-color: $primary;
+        outline: none;
+        
+    }
+}

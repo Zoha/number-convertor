@@ -1,0 +1,25 @@
+@import "../assets/variables";
+
+
+.reverse-button {
+    background: $primary;
+    cursor:pointer;
+    position:absolute;
+    right: 0;
+    left:0;
+    margin: auto;
+    border-radius: 30px;
+    top: 0;
+    bottom: 0;
+    width: 120px;
+    height: 120px;
+    color:white;
+    box-shadow: 0 0 20px rgba(darken($primary , 10%) , .6);
+    padding: 35px;
+    text-align:center;
+    font-size:14px;
+    &:hover {
+        background: darken($primary , 2%)
+    }
+
+}

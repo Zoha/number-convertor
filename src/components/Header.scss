@@ -1,0 +1,11 @@
+@import "../assets/variables";
+
+#header {
+    width: 100%;
+    height: 350px;
+    margin-bottom: -50px;
+    background-color: $primary ;
+    background-image: url("../assets/header-bg.png");
+    background-size : 100% auto;
+    color:white
+}

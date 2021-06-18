@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./assets/iranSans";
+@import "./assets/variables";
+
+body {
+    font-family: IRANSans ,tahoma ,sans-serif;
+    color: $dark;
+    background-color: $light;
+    font-size: .87rem;
+    vertical-align: baseline;
+}
