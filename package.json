@@ -2,7 +2,7 @@
   "name": "number-convertor",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://zoha.github.io/number-convertor",
+  "homepage": "https://zoha.github.io/number-convertor",
   "dependencies": {
     "@craco/craco": "^6.1.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
